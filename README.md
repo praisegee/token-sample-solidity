@@ -12,10 +12,9 @@ You can you [Remix](https://remix.ethereum.org) to execute this program. [Remix]
 
 Create a file called `token.sol`. Copy and paste the following code.
 
-````solidity
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
-
 
 contract MyToken {
 
@@ -40,9 +39,8 @@ contract MyToken {
             balances[_address] -= _value;
         }
     }
-
-}```
-````
+}
+```
 
 Navigate to the `Solidity Compiler` tab at the top left corner of the window and click on `Compile token.sol`. After that, goto the `Deploy & run transaction` tab, then click on `Deploy`. Here we have a token smart contract :).
 
